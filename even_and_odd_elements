@@ -1,0 +1,10 @@
+rr = [10,15,22,7,8,13,20]
+even = 0
+odd = 0
+for num in arr:
+    if num % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+print("Number of even elements:", even)
+print("Number of odd elements:", odd)
