@@ -1,0 +1,7 @@
+arr = [10,3,6,77,5]
+sum_elements = 0
+for num in arr:
+    sum_elements += num
+average = sum_elements / len(arr)
+print("Average of the array elements:", average)
+print("Sum of the array elements:", sum_elements)
